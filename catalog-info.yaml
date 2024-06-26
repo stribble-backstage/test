@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: This is a service to be manually registered to Backstage
+  
+  tags:
+    - tag
+    - tag2
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
